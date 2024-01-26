@@ -54,6 +54,7 @@ outputs:
         - {{ pin_subpackage('xsocs-base', exact=True) }}
         - silx >=1.0.0
         - pyopengl
+        - matplotlib-base
         - pyqt
     test:
       imports:
