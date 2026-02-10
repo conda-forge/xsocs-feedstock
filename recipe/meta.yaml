@@ -1,5 +1,5 @@
 {% set name = "xsocs" %}
-{% set version = "2024.9.0" %}
+{% set version = "2026.2.0" %}
 
 package:
   name: xsocs-split
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/xsocs-{{ version }}.tar.gz
-  sha256: eed72f3e5de681a08d55d36575b520739ed49019f3ed39f2b5cd2fe2dcf9194e
+  sha256: 77470a2deb2567724c5c660bc71b1560752a88fa4f66f49dbfe96cce3f893f77
 
 build:
-  number: 1
+  number: 0
 
 outputs:
   - name: xsocs-base
