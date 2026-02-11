@@ -31,7 +31,7 @@ outputs:
         - numpy
         - h5py
         - fabio
-        - silx-base >=1.0.0
+        - silx-base >=2.2.2
         - xrayutilities
         - scipy
         - setuptools
@@ -53,10 +53,8 @@ outputs:
     requirements:
       run:
         - {{ pin_subpackage('xsocs-base', exact=True) }}
-        - silx >=1.0.0
-        - pyopengl
-        - matplotlib-base
-        - pyqt
+        - silx >=2.2.2
+        - pyside6
     test:
       imports:
         - xsocs
